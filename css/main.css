@@ -5,8 +5,8 @@ html {
 .masthead {
 background: url("../images/leaf-bg.svg") left top / 64px auto;
 background-color: #588477;
-border-top: 3px solid #145b1d;
-border-bottom: 3px solid #145b1d;
+border-top: 3px solid #2d5a4d;
+border-bottom: 3px solid #2d5a4d;
 }
 
 .logo {
@@ -27,11 +27,13 @@ border-bottom: 3px solid #145b1d;
 }
 
 .nav a:hover {
-
+color: #145b1d;
+background: url("../images/leaf-icon.svg") left bottom / 75px auto no-repeat #fff;
 }
 
 .banner {
-background: url("../images/banner.jpg") center center / cover no-repeat transparent;
+background: linear-gradient(to bottom, rgba(16, 52, 41, 0) 50%, rgba(16, 52, 41, .8)), url("../images/banner.jpg") center bottom / cover no-repeat;
+border-bottom: 3px solid #2d5a4d;
 }
 
 .banner-content {
